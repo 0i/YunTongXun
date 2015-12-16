@@ -37,7 +37,8 @@ class TemplateSMS
      * 沙盒环境（用于应用开发调试）：sandboxapp.cloopen.com
      * 生产环境（用户应用上线使用）：app.cloopen.com
      */
-    const API_BASE_URL = 'https://sandboxapp.cloopen.com:8883/2013-12-26';
+    // const API_BASE_URL = 'https://sandboxapp.cloopen.com:8883/2013-12-26';
+    const API_BASE_URL = 'https://app.cloopen.com:8883/2013-12-26';
 
     public function __construct($appId, $accountSid, $token)
     {
